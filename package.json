@@ -1,0 +1,21 @@
+{
+  "name": "elastic-search-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Bernard Labno",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "11.0.1",
+    "http-as-promised": "1.1.0"
+  },
+  "devDependencies": {
+    "bluebird": "3.4.1",
+    "chai": "3.5.0",
+    "lodash": "4.15.0",
+    "mocha": "3.0.2"
+  }
+}
