@@ -1,0 +1,9 @@
+es:
+  image: elasticsearch:2.3.2
+  volumes:
+    - ./elasticsearch-config:/usr/share/elasticsearch/config
+  expose:
+    - "9200"
+    - "9300"
+  ports:
+    - "9200:9200"

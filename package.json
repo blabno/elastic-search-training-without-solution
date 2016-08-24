@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node runner.js",
     "test": "mocha"
   },
   "author": "Bernard Labno",
   "license": "ISC",
   "dependencies": {
     "elasticsearch": "11.0.1",
-    "http-as-promised": "1.1.0"
+    "file": "0.2.2",
+    "http-as-promised": "1.1.0",
+    "proxyquire": "1.7.10"
   },
   "devDependencies": {
     "bluebird": "3.4.1",
